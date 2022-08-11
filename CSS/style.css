@@ -112,7 +112,7 @@ nav .active a, nav a:hover{
 }
 
 .secao-biografia{
-    height: 600px;
+    height: 550px;
     background-color:rgb(177, 169, 169);
     display:flex;
     flex-direction: column;
@@ -143,7 +143,7 @@ nav .active a, nav a:hover{
 .biografy_text{
 
     text-align: justify;
-    padding: 15px 20px;
+    padding: 15px 50px;
     flex: 1;
 
 }
@@ -154,21 +154,100 @@ nav .active a, nav a:hover{
     display: flex;
     align-items: center;
     
+    
 }
 
 .picture1 img{
 
     border: 1px solid black;
+    width: 500px;
 }
 
-.secao-morte{
-    height: 600px;
-    background-color: blue;
+.secao-polémicas{
+    height: 560px;
+    background-color:rgb(179, 177, 177);
+    display:flex;
+    flex-direction: column;
+    align-items: center
 }
+
+
+.widget_polemicas{
+
+    display: flex;
+
+}
+
+.polemicas_text{
+
+    text-align: justify;
+    padding: 15px 50px;
+    flex: 1;
+
+}
+
+.polemicas_picture{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.picture2 img{
+
+    border: 1px solid black;
+    
+}
+
+
 
 .secao-discografia{
-    height: 600px;
-    background-color: yellow;
+    height: 700px;
+    background-color:rgb(177, 169, 169);
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.widget_discografia{
+
+    display: flex;
+
+}
+
+.title_text_disco{
+
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.discografia_text{
+
+    text-align: justify;
+    padding: 15px 50px;
+    
+
+}
+
+.discografia_picture{
+
+    flex: 1;
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    
+}
+
+.picture3 img{
+
+    border: 1px solid black;
+    width: 650px;
 }
 
 .meu-botao-flutuante{
@@ -181,6 +260,15 @@ nav .active a, nav a:hover{
     height: 40px;
 }
 
+
+.video{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgb(179, 177, 177);
+}
 .meu-botao-flutuante a{
 
     color: white;
@@ -190,9 +278,37 @@ nav .active a, nav a:hover{
 #banner{
     display: flex;
     justify-content: center;
-    background-image: url(../IMAGES/foto-2-color-tamo-ai-na-atividade-celebracao-ao-charlie-brown-jr-widelg.jpg);
+    background-image: url(../IMAGES/chorao-murumbi.jpg);
     position: center;
     background-size: cover;
     height: 670px;
 }
+
+footer{
+
+    background-color:rgb(48, 47, 47);
+    height: 120px;
+    color: white;
+    padding-top: 30px;
+    
+}
+
+.footer_text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.picture_footer1 img{
+
+    width: 200px;
+}
+
+.picture_footer2 img{
+
+    width: 120px;
+}
+
 
