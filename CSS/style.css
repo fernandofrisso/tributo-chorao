@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+   
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 169, 169);
+    
+   
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 169, 169);
+    
+    
+
+}
+
+.logo{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.logo2{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.logo img{
+
+    width: 150px;
+}
+
+.logo2 img{
+
+    width: 200px;
+}
+
+
+.menu{
+
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 70px;
+
+}
+
+nav ul, nav li{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+
+    display: flex;
+    
+}
+
+nav a {
+
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: arial;
+
+}
+
+nav .active a, nav a:hover{
+
+    color: white;
+    background-color: #2f3233;
+}
+
+.column{
+
+    flex-direction: column;
+    
+
+
+}
+
+.secao-biografia{
+    height: 600px;
+    background-color:rgb(177, 169, 169);
+    display:flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.widget_biografy{
+
+    display: flex;
+
+}
+
+.title_text{
+
+    display: flex;
+    padding-top: 25px;
+    
+}
+
+.title_bar{
+
+    width: 100px;
+    height: 2px;
+    background-color:black;
+
+}
+
+.biografy_text{
+
+    text-align: justify;
+    padding: 15px 20px;
+    flex: 1;
+
+}
+
+.biografy_picture{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.picture1 img{
+
+    border: 1px solid black;
+}
+
+.secao-morte{
+    height: 600px;
+    background-color: blue;
+}
+
+.secao-discografia{
+    height: 600px;
+    background-color: yellow;
+}
+
+.meu-botao-flutuante{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 5px;
+    background-color: green;
+    width: 70px;
+    height: 40px;
+}
+
+.meu-botao-flutuante a{
+
+    color: white;
+    text-decoration: none;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMAGES/foto-2-color-tamo-ai-na-atividade-celebracao-ao-charlie-brown-jr-widelg.jpg);
+    position: center;
+    background-size: cover;
+    height: 670px;
+}
+
