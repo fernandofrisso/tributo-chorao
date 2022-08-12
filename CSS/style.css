@@ -107,8 +107,15 @@ nav .active a, nav a:hover{
 
     flex-direction: column;
     
+}
 
-
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMAGES/chorao-murumbi.jpg);
+    position: center;
+    background-size: cover;
+    height: 670px;
 }
 
 .secao-biografia{
@@ -253,13 +260,20 @@ nav .active a, nav a:hover{
 .meu-botao-flutuante{
     position: fixed;
     bottom: 50px;
-    right: 50px;
-    border-radius: 5px;
-    background-color: green;
-    width: 70px;
+    right: 20px;
+    border-radius: 20px;
+    background-color: rgb(52, 53, 52);
+    width: 90px;
     height: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
+.meu-botao-flutuante a{
+
+    color: white;
+    text-decoration: none;
+}
 
 .video{
 
@@ -269,20 +283,7 @@ nav .active a, nav a:hover{
     padding-bottom: 25px;
     background-color:rgb(179, 177, 177);
 }
-.meu-botao-flutuante a{
 
-    color: white;
-    text-decoration: none;
-}
-
-#banner{
-    display: flex;
-    justify-content: center;
-    background-image: url(../IMAGES/chorao-murumbi.jpg);
-    position: center;
-    background-size: cover;
-    height: 670px;
-}
 
 footer{
 
@@ -291,24 +292,48 @@ footer{
     color: white;
     padding-top: 30px;
     
+    
+}
+
+.footer_design{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.footer_picture {
+
+    display: flex;
+    flex: 1;
+    
+
+}
+
+.footer_picture img {
+
+    width: 200px;
+    right: 50px;
 }
 
 .footer_text{
-
+     
     display: flex;
+    flex: 2;
     flex-direction: column;
     align-items: center;
 
 }
 
-.picture_footer1 img{
+.footer_picture2{
 
-    width: 200px;
+    display: flex;
+    flex: 1;
 }
 
-.picture_footer2 img{
+.footer_picture2 img{
 
     width: 120px;
 }
-
-
